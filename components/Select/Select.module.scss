@@ -1,0 +1,17 @@
+.select {
+  appearance: none;
+  text-transform: capitalize;
+  width: 16rem;
+  font-size: 0.875rem;
+  padding: 0.875rem 1rem;
+  border: 2px solid #cbd5e1;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  background-image: url('/chevron-down.svg');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: right 1.25rem center;
+  &:focus {
+    outline: none;
+  }
+}

@@ -1,0 +1,13 @@
+.root {
+  width: 100%;
+}
+
+.image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--image-placeholder);
+}
+
+.description {
+  line-height: 1.5rem;
+}

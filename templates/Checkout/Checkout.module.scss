@@ -1,0 +1,25 @@
+@import 'templates/index.scss';
+
+.hero {
+  padding: 15%;
+  position: relative;
+  .image {
+    inset: 0;
+    position: absolute;
+  }
+  .content {
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+  }
+  .title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+  }
+  .buttons {
+    color: #000;
+    --btn-color: #fff;
+  }
+}
